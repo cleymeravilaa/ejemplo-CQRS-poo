@@ -12,7 +12,7 @@ public interface IProductRepository {
     public Product findProductById(int productId) throws Exception;
     public Product findProductByName(String name) throws Exception;
     public Product saveProduct(Product product) throws Exception;
-    public void editProduct(Product product) throws Exception;
+    public void updateProduct(Product product) throws Exception;
     public int deleteProduct(Product product) throws Exception;
-    public List<Product> getProductAll();
+    public List<Product> getAllProducts();
 }

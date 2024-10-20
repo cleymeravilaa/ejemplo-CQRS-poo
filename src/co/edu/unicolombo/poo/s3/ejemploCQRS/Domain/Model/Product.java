@@ -9,12 +9,21 @@ public class Product {
     private int idProduct;
     private String name;
     private double price;
-    
-    
-    public Product(int id, String name, double price){
-        this.idProduct = id;
+    private String description;
+
+    public Product(int idProduct, String name, double price, String description) {
+        this.idProduct = idProduct;
         this.name = name;
         this.price = price;
+        this.description = description;
+    }
+
+    public void setDescription(String description) {
+        this.description = description;
+    }
+
+    public String getDescription() {
+        return description;
     }
     
     public int getIdProduct() {

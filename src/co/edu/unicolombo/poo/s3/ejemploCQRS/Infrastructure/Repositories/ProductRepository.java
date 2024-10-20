@@ -1,7 +1,6 @@
 
 package co.edu.unicolombo.poo.s3.ejemploCQRS.Infrastructure.Repositories;
 
-import co.edu.unicolombo.poo.s3.ejemploCQRS.Business.Exception.ExceptionProductNoFound;
 import co.edu.unicolombo.poo.s3.ejemploCQRS.Business.interfaces.Repositories.IProductRepository;
 import co.edu.unicolombo.poo.s3.ejemploCQRS.Domain.Model.Product;
 import java.util.ArrayList;
@@ -109,7 +108,7 @@ public class ProductRepository implements IProductRepository{
     }
 
     @Override
-    public void editProduct(Product product) throws Exception {
+    public void updateProduct(Product product) throws Exception {
         throw new UnsupportedOperationException("Not supported yet."); // Generated from nbfs://nbhost/SystemFileSystem/Templates/Classes/Code/GeneratedMethodBody
     }
 
@@ -119,7 +118,7 @@ public class ProductRepository implements IProductRepository{
     }
 
     @Override
-    public List<Product> getProductAll() {
+    public List<Product> getAllProducts() {
         throw new UnsupportedOperationException("Not supported yet."); // Generated from nbfs://nbhost/SystemFileSystem/Templates/Classes/Code/GeneratedMethodBody
     }
     

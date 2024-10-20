@@ -3,11 +3,12 @@
     <editor-bookmarks xmlns="http://www.netbeans.org/ns/editor-bookmarks/2" lastBookmarkId="0"/>
     <open-files xmlns="http://www.netbeans.org/ns/projectui-open-files/2">
         <group>
-            <file>file:/C:/Users/CLEYMER/OneDrive/Documentos/NetBeansProjects/EjemploCQRS/src/co/edu/unicolombo/poo/s3/ejemploCQRS/Domain/Model/Product.java</file>
+            <file>file:/C:/Users/CLEYMER/OneDrive/Documentos/NetBeansProjects/EjemploCQRS/src/co/edu/unicolombo/poo/s3/ejemploCQRS/Business/interfaces/Queries/IGetProductQuery.java</file>
             <file>file:/C:/Users/CLEYMER/OneDrive/Documentos/NetBeansProjects/EjemploCQRS/src/co/edu/unicolombo/poo/s3/ejemploCQRS/Infrastructure/Repositories/ProductRepository.java</file>
-            <file>file:/C:/Users/CLEYMER/OneDrive/Documentos/NetBeansProjects/EjemploCQRS/src/co/edu/unicolombo/poo/s3/ejemploCQRS/Business/Exception/ExceptionProductNoFound.java</file>
+            <file>file:/C:/Users/CLEYMER/OneDrive/Documentos/NetBeansProjects/EjemploCQRS/src/co/edu/unicolombo/poo/s3/ejemploCQRS/Business/Commands/Handlers/CreateProductCommandHandler.java</file>
             <file>file:/C:/Users/CLEYMER/OneDrive/Documentos/NetBeansProjects/EjemploCQRS/src/co/edu/unicolombo/poo/s3/ejemploCQRS/Business/interfaces/Repositories/IProductRepository.java</file>
-            <file>file:/C:/Users/CLEYMER/OneDrive/Documentos/NetBeansProjects/EjemploCQRS/src/co/edu/unicolombo/poo/s3/ejemploCQRS/GUI/ProductCrudWindow.java</file>
+            <file>file:/C:/Users/CLEYMER/OneDrive/Documentos/NetBeansProjects/EjemploCQRS/src/co/edu/unicolombo/poo/s3/ejemploCQRS/Business/Handlers/Queries/GetProductQueryHandler.java</file>
+            <file>file:/C:/Users/CLEYMER/OneDrive/Documentos/NetBeansProjects/EjemploCQRS/src/co/edu/unicolombo/poo/s3/ejemploCQRS/Business/Handlers/Queries/QueryHandler.java</file>
         </group>
     </open-files>
 </project-private>

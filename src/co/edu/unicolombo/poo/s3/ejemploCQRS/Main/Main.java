@@ -1,7 +1,6 @@
 package co.edu.unicolombo.poo.s3.ejemploCQRS.Main;
 
 import co.edu.unicolombo.poo.s3.ejemploCQRS.GUI.MainWindow;
-import javax.swing.JFrame;
 
 
 /**
@@ -15,6 +14,5 @@ public class Main {
         mainWindow.setVisible(true);
         mainWindow.setTitle("Ejemplo de ventanas en java");
         mainWindow.setLocationRelativeTo(null);
-        mainWindow.setExtendedState(mainWindow.MAXIMIZED_BOTH);
     }
 }
